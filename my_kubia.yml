@@ -9,11 +9,9 @@ metadata:
     app: kubia
   name: kubia
   namespace: default
-  resourceVersion: "150493"
-  uid: 1a68c6c2-9a4c-4f67-aa95-fa0e087b2dee
 spec:
   progressDeadlineSeconds: 600
-  replicas: 3
+  replicas: 2
   revisionHistoryLimit: 10
   selector:
     matchLabels:
@@ -50,8 +48,6 @@ metadata:
     app: kubia
   name: kubiaservice
   namespace: default
-  resourceVersion: "78994"
-  uid: b388fdfe-4eaf-4530-bf7a-21bf6dbc9533
 spec:
   allocateLoadBalancerNodePorts: true
   clusterIP: 10.152.183.193
